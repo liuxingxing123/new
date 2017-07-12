@@ -456,9 +456,14 @@ $bg:#e73a77;
 	background:url(../img/homepage_img/newHome-navbar.jpg) no-repeat;
 	li{
 		width:38px;height:38px;
-		
+		position:relative;
+		&:hover{
 		a{
-		width: 38px; height: 33px; background: #fa578d; font-size: 12px; color: #fff; line-height: 1.2; text-align: center; position: absolute; left: 0; top: 0; z-index: 1; display: none; padding-top: 5px
+		display:block;
+		}
+		}
+		a{
+		width: 38px; height: 33px; background: #fa578d; font-size: 12px; color: #fff; line-height: 1.2; text-align: center; position: absolute; left: 0; top: 0; z-index: 1; padding-top: 5px;display:inline-block;display:none;
 		};
 	}
 	}

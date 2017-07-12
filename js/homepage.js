@@ -78,7 +78,28 @@ require(["config"], function(){
 			}
 	}
 		djs();
+		$(function(){
+			var headerHeight = $("#main").offset().top,
+				currIndex = 0,
+				winHeight = $(window).height();
+				$(window).on("scroll",function(){
+					var _scrollTop = $(window).scrollTop();
+					if(_scrollTop > headerHeight - winHeight/2)
+						$("#left_slider").stop().fadeIn(400);
+					else
+						$("#left_slider").stop().fadeOut(400);
 					
+				});
+				$("#left_slider").on("click","li",function(){
+					var index= currIndex = $(this).index();
+					var _top = $(".floor").eq(index).offset().top;
+					$(this).find("span").show().end().siblings().children("span").hide();
+					$("html,body").stop().animate({scrollTop:_top},1000,function(){
+						isWheel = true;
+					});
+				});
+
+		});
 					
 					
 
