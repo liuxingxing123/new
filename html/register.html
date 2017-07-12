@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>注册页面</title>
+		<link rel="Shortcut Icon" href="../img/xiaozhuang_logo.ico" type="image/x-icon">
+		<link href="../css/register.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css" />
+	</head>
+
+	<body>
+	<div class="header"></div>
+		<div id="inline">
+			<a href="#"><i class="iconfont icon-xinxi"></i>咨询在线客服</a>
+		</div>
+		<div id="register_page" class="clearfix">
+			<div class="logo_left"><img src="../img/imgleft.png"></div>
+			<div class="register_right">
+				<div class="vip clearfix">
+					<h3>注册会员</h3><span>已有账号？<a href="login.html">请登陆</a></span>
+				</div>
+				<form  method="post">
+					<label class="phone">
+						<p>手机号</p>
+						<input type="text" placeholder="请输入手机号"><span></span><span class="span"><i class="iconfont icon-gouxuanmian"></i></span>
+						<div class="check">电话号码必须是以1开头的11位数字</div>
+					</label>
+					<div class="checkunm">
+						<input type="text" placeholder="请输入验证码"><span></span>
+						<div class="yzm"><img src=""></div><span class="span"><i class="iconfont icon-gouxuanmian"></i></span>
+						<div class="check"></div>
+					</div>
+					<div class="phone_check">
+						<input type="text" placeholder="请输入手机验证码">
+						<button class="btn_phone">获取手机验证码</button>
+						<div class="check"></div>
+					</div>
+					<label class="password">
+						<p>设置密码</p>
+						<input type="password" placeholder="密码为6-16个字符"><span></span><span class="span"><i class="iconfont icon-gouxuanmian"></i></span>
+						<div class="check"></div>
+					</label>
+					<label class="password_check">
+						<p>设置密码</p>
+						<input type="password" placeholder="请重复输入密码"><span></span><span class="span"><i class="iconfont icon-gouxuanmian"></i></span>
+						<div class="check"></div>
+					</label>
+					<input type="submit" class="btn_register" value="同意协议并注册">
+					<div class="yes">
+						<input type="checkbox" checked="true" /><span>我已阅读并同意<a href="#">会员注册协议</a>和<a href="#">隐私保护协议</a></span>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script type="text/javascript" src="../js/require.js" data-main="../js/register"></script>
+
+</html>

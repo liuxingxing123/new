@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>校妆网-【爱美,选校妆】大学生最爱的时尚美妆门户!综合首选,正品低价!</title>
+		<link rel="Shortcut Icon" href="../img/xiaozhuang_logo.ico" type="image/x-icon">
+		<link href="../css/login.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
+	</head>
+	<body>
+	<div class="header"></div>
+		<div id="login">
+			<div class="login_left"><img src="../img/login_img/xz_logo.jpg"></div>
+			<div class="login_right">
+				<div class="login_info">用户名或密码错误</div>
+				<form  method="post">
+					<div class="login_xz clearfix">
+						<h1>登录校妆网</h1>
+						<span>还没有校妆网账号 , 请<a href="register.html">免费注册</a></span>
+					</div>
+					<label class="label_user">
+						<i class="i1"></i><input type="text"  placeholder="请输入注册手机号" name="">
+						<div class="danger"><span>此连接不安全，在此页面输入的登录信息可以被窃取。 <a href="#">详细了解</a></span></div>
+					</label>
+					<label class="label_pwd ">
+						<i class="i2"></i><input type="password"   placeholder="请输入密码" name="">
+						<div class="danger"><span>此连接不安全，在此页面输入的登录信息可以被窃取。 <a href="#">详细了解</a></span></div>
+					</label>
+					<div class="label_remember">
+						<input type="checkbox" checked="true"   ><span>记住用户名</span><a href="#">忘记密码？</a>
+					</div>
+					<div  class="login">
+					<input class="btnLogin" type="submit" value="登录" name="">
+					</div>
+					<div class="weixin_qq">
+					<p>无需注册即可登录</p>
+					<a href="/cas/third/oauth2/domain/qq?continue=" class="qq" title="使用QQ账号直接登陆">QQ</a>
+					<a href="/cas/index/wxLogin" class="weixin" title="使用微信直接登陆">微信</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script type="text/javascript" src="../js/require.js" data-main="../js/login"></script>
+</html>

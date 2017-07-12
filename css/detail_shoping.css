@@ -1,0 +1,58 @@
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+input,
+form,
+span,
+a,
+div,
+html,
+body,
+img,
+hr,
+dt,
+p,
+button,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-size: 14px;
+	color: #66667b;
+	text-decoration: none;
+}
+
+html,
+body {
+	width: 100%;
+}
+
+input,
+button,
+form {
+	outline: none;
+	border: none;
+}
+
+ul,
+ol,
+dl li {
+	list-style: none;
+}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: "";
+	display: block;
+	clear: both;
+}
+
