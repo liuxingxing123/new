@@ -61,7 +61,7 @@ require(["config"], function(){
 			var html = template("temp1",data);
 			$(".temp1").append(html);
 			});
-		function djs(){
+		(function(){
 				var leftseconds = 14*60*60;
 				var timer = null;
 					timer = setInterval(getTime,1000);
@@ -76,33 +76,56 @@ require(["config"], function(){
 						clearInterval(timer);
 					$("#main .super_temp .djs").text(html);
 			}
-	}
-		djs();
-		$(function(){
-			var headerHeight = $("#main").offset().top,
-				currIndex = 0,
-				winHeight = $(window).height();
+		})();
+			(function(){
 				$(window).on("scroll",function(){
 					var _scrollTop = $(window).scrollTop();
-					if(_scrollTop > headerHeight - winHeight/2)
+					var x = (Math.floor(_scrollTop/100)-6)/2;
+					if(x>=0 && x<=5){
+						
+						$("#left_slider li").eq(x).children().show();
+						$("#left_slider li").eq(x-1).children().hide();
+					}else if(x>5){
+						$("#left_slider li").eq().children().hide();
+					}else if(x<0){
+						$("#left_slider li").eq().children().hide();
+					}
+					if(_scrollTop > 600)
 						$("#left_slider").stop().fadeIn(400);
 					else
 						$("#left_slider").stop().fadeOut(400);
-					
 				});
-				$("#left_slider").on("click","li",function(){
-					var index= currIndex = $(this).index();
-					var _top = $(".floor").eq(index).offset().top;
-					$(this).find("span").show().end().siblings().children("span").hide();
-					$("html,body").stop().animate({scrollTop:_top},1000,function(){
-						isWheel = true;
-					});
-				});
-
-		});
-					
-					
-
+		})();
+	$(window).on("scroll",function(){
+		var _scrollTop = $(window).scrollTop();
+		if(_scrollTop > 800){
+				$("#right_slider").stop().fadeIn(400);
+				sidebar("right_slider");
+		}
+		else
+				$("#right_slider").stop().fadeOut(400);
+	});
+	function sidebar(id){
+		var obox = document.getElementById(id);
+		var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+		var t = parseInt((document.documentElement.clientHeight - obox.offsetHeight)/2);
+		$(obox).animate({top:scrollTop+t},400);
+	}			
+		
+	$.get("http://localhost/new/json/data.json",function(resdata){
+		var data = {
+			list:resdata
+		};
+		var html = template("temp2",data);
+		$("#main .temp_main").append(html);
+	});	
+//	$("#main .temp_main .H .hot_img").css("background")
+	$("#main .temp_main").on("click",".H",function(){
+		location.href="detail_shoping.html";
+	});
+	$("#main .temp1").on("click",".super_temp",function(){
+		location.href="detail_shoping.html";
+	});
 });
 });
 });

@@ -47,6 +47,35 @@ ol,
 dl li {
 	list-style: none;
 }
+#inline {
+    width: 40px;
+    height: 200px;
+    border-radius: 6px 0 0 6px;
+    background: #ff6bb0;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+    top: 342px;
+    overflow: hidden;
+    box-sizing: border-box;
+    a{
+        display: block;
+    width: 24px;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-left: 8px;
+    padding-top: 50px;
+    i{
+         display: block;
+    position: absolute;
+    top: 16px;
+    font-size: 26px;
+    }
+    }
+}
+
 
 .clearfix:after {
 	height: 0;
@@ -404,14 +433,34 @@ $bg:#e73a77;
    		 float: left; display: inline; position: relative; margin-right: -1px; margin-top: -1px; 
    		 &:hover{
    		 box-shadow:0 0 15px 10px #ccc;-webkit-box-shadow:0 0 15px 10px #ccc; z-index: 1;
-   		 .sale_buy{
+   		&:hover .sale_buy{
    		 display: block; color: #fff;
    		 }
    		 };
    		 .hot_img{
    		 width: 333px; height: 216px;
+   		 position:relative;
+   		 span{
+   		 display:block;
+   		 width:48px;height:53px;
+   		 position:absolute;
+   		 background: url(../img/homepage_img/index_icon.png) no-repeat -120px -20px;
+   		 top:0;left:8px;
+   		 font-size:13px;
+   		 text-align: center;
+   		 color:white;
+   		 }
+   		 img{
+   		 width: 333px; height: 216px; 
+   		 }
+   		 };
    		 .sale_price{
-   		 position: relative;
+   		 position:absolute;
+   		 height:34px;
+   		 line-height:34px;
+   		 width:90%;
+   		 top:290px;
+   		 margin-bottom:10px;
    		 	.sale_num{
    		 	font-size: 14px; color: #999;float: right;display: inline;line-height: 40px;
    		 	strong{
@@ -425,21 +474,25 @@ $bg:#e73a77;
    		 		}
    		 	};
    		 	.price{
-
+   		 	font-size: 14px; color: #333;float: left;display: inline; line-height: 40px;
    		 	}
-   		 };
-   		 .sale_buy{
-   		 	font-size: 16px; color: #fff; width: 108px; height: 37px; line-height: 37px; text-align: center; background: #f31f64; border-radius: 2px; position: absolute; right: 14px; bottom: 12px; display: none; z-index: 1;
-   		 };
+   		 
+   		
    		 .discount{ width: 40px; height: 20px; background-position:-80px 0; color: #fff; font-size: 12px; display: inline-block; line-height: 17px; text-align: center; position: relative; bottom: -10px; margin-left: 5px;};
    		 img{
    		 width: 333px; height: 216px;
    		 };
    		 };
+   		 .sale_buy{
+   		 	font-size: 16px; color: #fff; width: 108px; height: 37px; line-height: 37px; text-align: center; background: #f31f64; border-radius: 2px; position: absolute; right: 14px; bottom: 12px; display: none; z-index: 1;
+   		 };
    		 h2{
-   		 width: 333px; height: 216px;
-   		 a{
-   		 color: #333;
+   		font-size: 14px;  font-weight: 100; line-height: 24px; margin-top: 10px;
+   		 a {
+   		 color:#333;
+   		 &:hover {
+   			 color:#e73a77;
+   			 }
    		 }
    		 };
    		 p{ font-size: 14px; color: #777;line-height: 24px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
@@ -451,6 +504,7 @@ $bg:#e73a77;
 	position:fixed;
 	top:100px;
 	left:42px;
+	display:none;
 	ul{
 	width:100%;height:100%;
 	background:url(../img/homepage_img/newHome-navbar.jpg) no-repeat;
@@ -468,4 +522,49 @@ $bg:#e73a77;
 	}
 	}
 };
-
+#right_slider{
+	width:63px;
+	position:absolute;
+	background:#f1f1f1;
+	right:10px;
+	li{
+	width:63px;
+	height:65px;
+	border:1px solid #ececec;
+	margin-bottom:8px;
+	box-sizing:border-box;
+	cursor:pointer;
+	a{width:100%;height:100%;display:block;}
+	&:nth-child(1) .newHome-toolBar-xzapp{
+		background:url(../img/homepage_img/toolbar.png) no-repeat 0 -436px;
+		&:hover{
+		background:url(../img/homepage_img/toolbar.png) no-repeat -69px -436px;
+		}
+	};
+	&:nth-child(2) .newHome-toolBar-shopcar{
+		background:url(../img/homepage_img/toolbar.png) no-repeat 0 0;
+		position:relative;
+		&:hover{
+		background:url(../img/homepage_img/toolbar.png) no-repeat -69px 0;
+		};
+		.shop{
+		display:inline-block;
+		width:20px;height:20px;
+		line-height:20px;
+		font-size:12px;
+		color:white;
+		position:absolute;top:8px;left:22px;
+		text-align:center;
+		border-radius:50%;
+		background:#fa578d;
+		overflow:hidden;
+		};
+	};
+	&:nth-child(3) .newHome-toolBar-gototop{
+		background:url(../img/homepage_img/toolbar.png) no-repeat 0 -142px;
+		&:hover{
+		background:url(../img/homepage_img/toolbar.png) no-repeat -69px -142px;
+		};
+	};
+	};
+}
