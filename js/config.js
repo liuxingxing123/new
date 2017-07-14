@@ -5,5 +5,6 @@ require.config({
 		"template":"http://localhost/new/js/template-native",
 		"bootstrap":"http://localhost/new/js/bootstrap.min",
 		"include":"http://localhost/new/js/include",
+		"magnifier":"http://localhost/new/js/magnifier"
 	}
 });

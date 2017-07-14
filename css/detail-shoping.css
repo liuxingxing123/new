@@ -1,0 +1,166 @@
+@charset "UTF-8";
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+input,
+form,
+span,
+a,
+div,
+html,
+body,
+img,
+hr,
+dt,
+p,
+button,
+#pages .page_num .next_page,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 14px;
+  color: #66667b;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+input,
+button,
+#pages .page_num .next_page,
+form {
+  outline: none;
+  border: none;
+}
+
+ul,
+ol,
+dl li {
+  list-style: none;
+}
+
+.clearfix:after {
+  height: 0;
+  visibility: hidden;
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#detail_main {
+  width: 1003px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#detail_main .manginify_left {
+  width: 810px;
+  float: left;
+}
+#detail_main .temp_right {
+  width: 184px;
+  float: right;
+}
+#detail_main .temp_right .left_two {
+  border-top: 2px solid #fc733f;
+  position: relative;
+}
+#detail_main .temp_right .left_two .baidu {
+  width: 100%;
+  height: 13px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  padding-bottom: 3px;
+  position: absolute;
+  top: 538px;
+  border: 1px solid #e8e8e8;
+  border-top: none;
+  background: url(../img/detail_shoping_img/bfd_logo_ch.gif) no-repeat 70px 0;
+}
+#detail_main .temp_right .left_two .baidu:hover {
+  background: url(../img/detail_shoping_img/bfd_logo_ch.gif) no-repeat 70px -14px;
+}
+#detail_main .temp_right h4 {
+  width: 100%;
+  height: 32px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 32px;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  background: #f8f8f8;
+}
+#detail_main .temp_right .order, #detail_main .temp_right .like, #detail_main .temp_right .wenkday {
+  padding: 10px 10px 0;
+  background: #fff;
+  border-left: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  border-right: 1px solid #E8E8E8;
+  margin-bottom: 20px;
+  height: 515px;
+}
+#detail_main .temp_right .like, #detail_main .temp_right .wenkday {
+  border-bottom: none;
+}
+#detail_main .temp_right .order_temp {
+  height: 72px;
+  border-bottom: 1px dashed #E8E8E8;
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font: normal 12px "宋体";
+}
+#detail_main .temp_right .order_temp .order_l {
+  height: 62px;
+  width: 62px;
+  float: left;
+}
+#detail_main .temp_right .order_temp .order_l img {
+  width: 62px;
+  height: 62px;
+}
+#detail_main .temp_right .order_temp .order_r {
+  width: 98px;
+  height: 62px;
+  float: right;
+}
+#detail_main .temp_right .order_temp .order_r a {
+  color: #666;
+  width: 100%;
+  line-height: 18px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#detail_main .temp_right .order_temp .order_r a:hover {
+  color: #e73a77;
+}
+#detail_main .temp_right .order_temp .order_r p {
+  margin-top: 10px;
+  font: normal 600 12px arial;
+  color: #FC733F;
+}
+#detail_main .temp_right .order_temp .order_r p span {
+  font: normal 8px arial;
+  color: #9A9A9A;
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=detail-shoping.css.map */

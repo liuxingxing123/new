@@ -5,10 +5,134 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 		<title>校妆网-【爱美,选校妆】大学生最爱的时尚美妆门户!综合首选,正品低价!</title>
 		<link rel="Shortcut Icon" href="../img/xiaozhuang_logo.ico" type="image/x-icon">
-		<link href="../css/detail_shoping.css" rel="stylesheet"/>
+		<link href="../css/detail-shoping.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
 	</head>
 	<body>
+		<div id="detail_main" class="clearfix">
+			<div class="manginify_left">
+				<div class="clearfix manginify">
+					<div class="man_left" style="float: left;width: 50%;background:#eee;"></div>
+					<div class="prod_detail" style="float: right;width: 50%;background:#E38D13;"></div>
+				</div>
+				<div class="goup">
+					
+				</div>
+				<div class="all_pic" style="width: 92%;">
+				<div class="detail_pic_1"><img src="../img/detail_shoping_img/1499413405106830.jpg"></div>
+				<div class="detail_pic_1"><img src="../img/detail_shoping_img/1499413405262666.jpg"></div>
+				<div class="detail_pic_2"><img src="../img/detail_shoping_img/1499413421545911.jpg"></div>
+				<div class="detail_pic_3"><img src="../img/detail_shoping_img/1499413422178028.jpg"></div>
+				<div class="detail_pic_4"><img src="../img/detail_shoping_img/1499413434507839.jpg"></div>
+				<div class="detail_pic_5"><img src="../img/detail_shoping_img/1499413434334882.jpg"></div>
+				<div class="detail_pic_6"><img src="../img/detail_shoping_img/1499413444587774.jpg"></div>
+				<div class="detail_pic_7"><img src="../img/detail_shoping_img/1499413444527172.jpg"></div>
+				<div class="detail_pic_8"><img src="../img/detail_shoping_img/1499413454238020.jpg"></div>
+				<div class="detail_pic_9"><img src="../img/detail_shoping_img/1499413454145025.jpg"></div>
+				<div class="detail_pic_10"><img src="../img/detail_shoping_img/1499413468212764.jpg"></div>
+				<div class="detail_pic_11"><img src="../img/detail_shoping_img/1499413468766321.jpg"></div>
+				<div class="detail_pic_12"><img src="../img/detail_shoping_img/1499413479409622.jpg"></div>
+				<div class="detail_pic_13"><img src="../img/detail_shoping_img/1499413493307387.jpg"></div>
+				<div class="detail_pic_14"><img src="../img/detail_shoping_img/1499413503642210.jpg"></div>
+				<div class="detail_pic_15"><img src="../img/detail_shoping_img/1499413509291163.jpg"></div>
+				</div>
+				<div class="point">
+					<h4></h4>
+					<div>　　因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、
+						附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。
+						若本商城没有及时更新，请大家谅解！</div>
+					<p>　　注：由于产品的特性不同人群所体验出的效果将有所差异，对于过于追求理想效果而要求退货的，将不给予退换货，请大家谅解。
+      				  </p>
+				</div>
+				<div class="mark">
+					<div class="mark_left"></div>
+					<div class="mark_right"></div>
+
+				</div>
+				<div class="prev_next"></div>
+				<div class="tab_over">
+					<div class="tab_div">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="tab_pic">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+			<div class="temp_right">
+				<div class="left_two" style="margin-top: 120px;">
+						<h4>精华排行榜</h4>
+						<div class="order"></div>
+					</div>
+					<div class="left_two">
+						<h4>猜你喜歡</h4>
+						<div class="like"></div>
+						<div class="baidu"></div>
+					</div>
+					<div class="left_two baidu">
+						<h4>购买此商品的用户还购买</h4>
+						<div class="wenkday"></div>
+						<div class="baidu"></div>
+					</div>
+			</div>
+		</div>
+			<script type="text/html" id="order">
+			<% for(var i=42;i<48;i++) { var prod = list[i]; %>
+			<div class="order_temp">
+				<div class="order_l"><a href="detail_shoping.html"><img src="<%= prod.imgSrc%>"></a></div>
+				<div class="order_r">
+					<a href="detail_shoping.html"><%= prod.title%></a>
+					<p>
+						<%= prod.now_price%><span><%= prod.old_price%></span>
+					</p>
+				</div>
+			</div>
+			<% } %>	
+		</script>
+		<script type="text/html" id="like">
+			<% for(var i=35;i<41;i++) { var prod = list[i]; %>
+			<div class="order_temp">
+				<div class="order_l"><a href="detail_shoping.html"><img src="<%= prod.imgSrc%>"></a></div>
+				<div class="order_r">
+					<a href="detail_shoping.html"><%= prod.title%></a>
+					<p>
+						<%= prod.now_price%><span><%= prod.old_price%></span>
+					</p>
+				</div>
+			</div>
+			<% } %>	
+		</script>
+		<script type="text/html" id="wenkday">
+			<% for(var i=24;i<30;i++) { var prod = list[i]; %>
+			<div class="order_temp">
+				<div class="order_l"><a href="detail_shoping.html"><img src="<%= prod.imgSrc%>"></a></div>
+				<div class="order_r">
+					<a href="detail_shoping.html"><%= prod.title%></a>
+					<p>
+						<%= prod.now_price%><span><%= prod.old_price%></span>
+					</p>
+				</div>
+			</div>
+			<% } %>	
+		</script>
 	</body>
 	<script type="text/javascript" src="../js/require.js" data-main="../js/detail_shoping"></script>
 </html>

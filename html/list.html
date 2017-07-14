@@ -17,7 +17,7 @@
 
 		<div id="main" class="clearfix">
 			<div class="show_type"><span><a href="homepage.html">首页</a></span>><span><a href="list.html">面部护肤</a></span></div>
-			<div class="detail_type">
+			<div class="detail_type clearfix">
 				<div class="main_left">
 					<div class="left_one">
 					<div class="sortList">
@@ -218,11 +218,11 @@
 						<h4>全國熱銷排行</h4>
 						<div class="order"></div>
 					</div>
-					<div class="left_three">
+					<div class="left_two">
 						<h4>猜你喜歡</h4>
 						<div class="like"></div>
 					</div>
-					<div class="left_four">
+					<div class="left_two">
 						<h4>周銷量排行榜</h4>
 						<div class="wenkday"></div>
 					</div>
@@ -383,16 +383,22 @@
 							<div class="pinfen"><a href="javascript:void(0);">熱銷</a></div>
 							<div class="pinfen"><a href="javascript:void(0);">好評</a></div>
 							<div class="pinfen"><a href="javascript:void(0);">價格</a></div>
-							<div class="goon"><a href="javascript:void(0);"></a><a href="javascript:void(0);"></a></div>
+							<div class="goon clearfix"><a href="javascript:void(0);"></a><a href="javascript:void(0);"></a></div>
 						</div>
-						<div class="detail_product">
-						<div class="list_left"></div>
-						<div class="list_right"></div>
+						<div class="detail_product clearfix">
+
+
 						</div>
 					</div>
 				</div>
 			</div>
+			<div id="pages">
+				<div class="page_num">
+				
+				</div>
+			</div>
 		</div>
+		
 		<script type="text/html" id="order">
 			<% for(var i=0;i<6;i++) { var prod = list[i]; %>
 			<div class="order_temp">
@@ -432,6 +438,52 @@
 			</div>
 			<% } %>	
 		</script>
+		<script type="text/html" id="temp_product">
+			<% for(var i =0;i<20;i++){ var prod = list[i]; %>
+		<div class="temp_list">
+		<div class="temp_img"><a href="detail_shoping.html"><img src="<%=prod.imgSrc%>"></a>
+			<div class="list_opacity"><span><a href="javascript:void(0);"></a>收藏</span></div>
+		</div>
+		<p class="list_title"><a href="javascript:void(0);"><%=prod.title%>
+		</a>
+		</p>
+		<p class="price">
+			<em><%=prod.now_price%></em><span><%=prod.old_price%></span>
+		</p>
+		<div class="list_price clearfix">
+			<a href="javascript:void(0);">最近<span><%=prod.success%></span>人成交</a><a class="temp_btn" href="javascript:void(0);"></a>
+		</div>
+		<div class="favorable">好评率：<span>100%</span></div>
+		<div class="none_div">
+			<img src="../img/list_img/none_div.jpg" />
+			<div class="haopin clearfix">
+			<div class="wa clearfix">
+				<span>好评率<b>100%</b></span>
+			<ul class="oul clearfix">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			</div>
+			<div class="score">力荐</div>
+			</div>
+			<div class="assess"><span><%=prod.success%></span>篇评价</div>
+		</div>
+	</div>
+
+			<% } %>
+		</script>
+		<div id="pop">
+			<div class="jiaru_success">加入成功</div>
+			<div class="prod_info">
+				<div class="prod_name">名称：<span></span></div>
+				<div class="prod_price">价格：<span></span></div>
+			</div>
+			<div class="firm"><button class="firm_btn">去购物车结算</button><button class="goon_btn">继续购物</button></div>
+			
+		</div>
 	</body>
 	<script type="text/javascript" src="../js/require.js" data-main="../js/list"></script>
 
