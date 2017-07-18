@@ -6,7 +6,22 @@
 		"num":121,
 		"now_price":"58.0",
 		"old_price":"129.00",
-		"discount":"4.5折"
+		"discount":"4.5折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p1_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p1_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p1_3.jpg"
+			},
+		"id":"22908",
+		"p_titile":"MISTINE",
+		"p_info":"MISTINE 羽翼粉饼 S1象牙色 SPF25PA++ 10g",
+		"now_price":"58.0",
+		"score":"58",
+		"old_price":"129.00",
+		"num":121,
+		"looked":"713"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p2.jpg",
@@ -15,7 +30,22 @@
 		"num":31,
 		"now_price":"45.0",
 		"old_price":"48.00",
-		"discount":"9.4折"
+		"discount":"9.4折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p2_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p2_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p2_3.jpg"
+			},
+		"id":"22915",
+		"p_titile":"洗颜专科",
+		"p_info":"洗颜专科柔澈泡沫洁面乳120g",
+		"num":31,
+		"now_price":"45.0",
+		"old_price":"48.00",
+		"score":"45",
+		"looked":"713"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p3.jpg",
@@ -24,7 +54,22 @@
 		"num":15,
 		"now_price":"79.0",
 		"old_price":"149.00",
-		"discount":"5.3折"
+		"discount":"5.3折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p3_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p3_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p3_3.jpg"
+			},
+		"id":"22182",
+		"p_titile":"Clinie可莱丝",
+		"p_info":"美迪惠尔针剂水库美白补水保湿面膜10片",
+		"num":15,
+		"now_price":"79.0",
+		"old_price":"149.00",
+		"score":"79",
+		"looked":"11204"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p4.jpg",
@@ -33,7 +78,23 @@
 		"num":61,
 		"now_price":"19.9",
 		"old_price":"36.00",
-		"discount":"5.5折"
+		"discount":"5.5折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p4_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p4_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p4_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p4_4.jpg"
+			},
+		"id":"23047",
+		"p_titile":"其他品牌",
+		"p_info":"泰国Yanhee防蚊镇痛青草药膏13g",
+		"num":61,
+		"now_price":"19.9",
+		"old_price":"36.00",
+		"score":"19",
+		"looked":"202"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p5.jpg",
@@ -42,16 +103,48 @@
 		"num":11,
 		"now_price":"49.0",
 		"old_price":"99.00",
-		"discount":"4.9折"
+		"discount":"4.9折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p5_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p5_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p5_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p5_4.jpg"
+			},
+		"id":"23460",
+		"p_titile":"一叶子",
+		"p_info":"一叶子亮颜补水水漾鲜奢套组（黄瓜补水天才面膜25ml*2+柑橘亮颜天才面膜25ml*2+植物酵素.多效保湿面膜25ml*3）",
+		"num":11,
+		"now_price":"49.0",
+		"old_price":"99.00",
+		"score":"49",
+		"looked":"7405"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p6.jpg",
-			"p_titile":"其他品牌",
+		"p_titile":"其他品牌",
 		"p_info":"Coppertone确美同水宝宝纯净防晒乳SPF30+ PA+++ 237ML",
 		"num":16,
 		"now_price":"99.0",
 		"old_price":"230.00",
-		"discount":"4.3折"
+		"discount":"4.3折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p6_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p6_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p6_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p6_4.jpg"
+			},
+		"id":"23942",
+		"p_titile":"其他品牌",
+		"p_info":"Coppertone确美同水宝宝纯净防晒乳SPF30+ PA+++ 237ML",
+		"num":16,
+		"now_price":"99.0",
+		"old_price":"230.00",
+		"score":"90",
+		"looked":"1030"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p7.jpg",
@@ -60,7 +153,22 @@
 		"num":81,
 		"now_price":"30.0",
 		"old_price":"49.00",
-		"discount":"6.1折"
+		"discount":"6.1折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p7_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p7_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p7_3.jpg"
+			},
+		"id":"23403",
+		"p_titile":"韩后",
+		"p_info":"韩后仙人掌补水达人面膜 22ml*5",
+		"num":81,
+		"now_price":"30.0",
+		"old_price":"49.00",
+		"score":"30",
+		"looked":"7252"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p8.jpg",
@@ -69,7 +177,21 @@
 		"num":136,
 		"now_price":"42.0",
 		"old_price":"68.00",
-		"discount":"6.2折"
+		"discount":"6.2折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p8_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p8_2.jpg"
+			},
+		"id":"23825",
+		"p_titile":"The saem得鲜",
+		"p_info":"thesaem得鲜舒缓茶园茶树卸妆水300ml",
+		"num":136,
+		"now_price":"42.0",
+		"old_price":"68.00",
+		"score":"42",
+		"looked":"1256"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p9.jpg",
@@ -78,7 +200,23 @@
 		"num":19,
 		"now_price":"26.0",
 		"old_price":"39.00",
-		"discount":"6.7折"
+		"discount":"6.7折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p9_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p9_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p9_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p9_4.jpg"
+			},
+		"id":"23834",
+		"p_titile":"The saem得鲜",
+		"p_info":"thesaem得鲜舒缓茶园绿茶洁面霜150ml",
+		"num":19,
+		"now_price":"26.0",
+		"old_price":"39.00",
+		"score":"26",
+		"looked":"1290"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p10.png",
@@ -87,7 +225,24 @@
 		"num":45,
 		"now_price":"12.9",
 		"old_price":"20.00",
-		"discount":"6.5折"
+		"discount":"6.5折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p10_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p10_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p10_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p10_4.jpg",
+			"imgSrc5":"../img/detail_shoping_img/p10_5.jpg"
+			},
+		"id":"20816",
+		"p_titile":"Efolar依芙拉",
+		"p_info":"Efolar依芙拉魔法遮瑕膏3.8g+完美遮瑕液7.2ml",
+		"num":45,
+		"now_price":"12.9",
+		"old_price":"20.00",
+		"score":"12",
+		"looked":"42846"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p11.jpg",
@@ -96,7 +251,21 @@
 		"num":32,
 		"now_price":"60.0",
 		"old_price":"198.00",
-		"discount":"3折"
+		"discount":"3折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p11_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p11_2.jpg"
+			},
+		"id":"22795",
+		"p_titile":"BYPHASSE蓓昂斯",
+		"p_info":"西班牙BYPHASSE蓓昂斯卸妆水500ml",
+		"num":32,
+		"now_price":"60.0",
+		"old_price":"198.00",
+		"score":"60",
+		"looked":"1228"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p12.jpg",
@@ -105,7 +274,21 @@
 		"num":9,
 		"now_price":"95.0",
 		"old_price":"128.00",
-		"discount":"7.4折"
+		"discount":"7.4折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p12_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p12_2.jpg"
+			},
+		"id":"22912",
+		"p_titile":"其他品牌",
+		"p_info":"Paparecipe春雨蜂蜜面膜25ml*10",
+		"num":9,
+		"now_price":"95.0",
+		"old_price":"128.00",
+		"score":"95",
+		"looked":"818"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p13.jpg",
@@ -114,7 +297,21 @@
 		"num":33,
 		"now_price":"53.0",
 		"old_price":"88.00",
-		"discount":"6折"
+		"discount":"6折",
+		"obj":{
+			"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p13_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p13_2.jpg"
+			},
+		"id":"22924",
+		"p_titile":"其他品牌",
+		"p_info":"娥佩兰薏仁水500ml",
+		"num":33,
+		"now_price":"53.0",
+		"old_price":"88.00",
+		"score":"53",
+		"looked":"882"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p14.jpg",
@@ -123,7 +320,21 @@
 		"num":13,
 		"now_price":"59.0",
 		"old_price":"129.00",
-		"discount":"4.6折"
+		"discount":"4.6折",
+		"obj":{
+			"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p14_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p14_2.jpg"
+			},
+		"id":"22819",
+		"p_titile":"ColorSeed多情的种子",
+		"p_info":"ColorSeed多情的种子心情唇膏 #H01豆沙色",
+		"num":13,
+		"now_price":"59.0",
+		"old_price":"129.00",
+		"score":"59",
+		"looked":"1035"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p15.jpg",
@@ -132,7 +343,24 @@
 		"num":51,
 		"now_price":"139.0",
 		"old_price":"172.00",
-		"discount":"8.1折"
+		"discount":"8.1折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p15_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p15_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p15_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p15_4.jpg",
+			"imgSrc5":"../img/detail_shoping_img/p15_5.jpg"
+			},
+		"id":"21048",
+		"p_titile":"KanS韩束",
+		"p_info":"KanS韩束水嫩亮颜臻享套组（洗颜霜120ml+柔肤水150ml+保湿乳130ml+去角质70ml+滋润霜10g+透润精华7ml+保湿眼精华  5g）",
+		"num":51,
+		"now_price":"139.0",
+		"old_price":"172.00",
+		"score":"139",
+		"looked":"28850"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p16.jpg",
@@ -141,7 +369,23 @@
 		"num":36,
 		"now_price":"199.0",
 		"old_price":"376.00",
-		"discount":"5.3折"
+		"discount":"5.3折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p16_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p16_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p16_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p16_4.jpg"
+			},
+		"id":"22306",
+		"p_titile":"KanS韩束",
+		"p_info":"KanS韩束红石榴鲜活水盈全能礼盒七件套",
+		"num":36,
+		"now_price":"199.0",
+		"old_price":"376.00",
+		"score":"199",
+		"looked":"27969"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p17.jpg",
@@ -150,7 +394,23 @@
 		"num":54,
 		"now_price":"36.0",
 		"old_price":"75.00",
-		"discount":"4.8折"
+		"discount":"4.8折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p17_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p17_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p17_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p17_4.jpg"
+			},
+		"id":"19558",
+		"p_titile":"自然乐园",
+		"p_info":"自然乐园芦荟多功能晒后修复镇静啫喱300ml",
+		"num":54,
+		"now_price":"36.0",
+		"old_price":"75.00",
+		"score":"36",
+		"looked":"26257"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p18.jpg",
@@ -159,7 +419,21 @@
 		"num":27,
 		"now_price":"61.0",
 		"old_price":"69.00",
-		"discount":"8.8折"
+		"discount":"8.8折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p18_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p18_2.jpg"
+			},
+		"id":"22796",
+		"p_titile":"RE:CIPE",
+		"p_info":"韩国RE:CIPE水晶防晒喷雾150ml",
+		"num":27,
+		"now_price":"61.0",
+		"old_price":"69.00",
+		"score":"61",
+		"looked":"1723"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p19.jpg",
@@ -168,7 +442,23 @@
 		"num":16,
 		"now_price":"45.0",
 		"old_price":"50.00",
-		"discount":"9折"
+		"discount":"9折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p19_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p19_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p19_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p19_4.jpg"
+			},
+		"id":"22910",
+		"p_titile":"innisfree悦诗风吟",
+		"p_info":"innisfree悦诗风吟薄荷散粉5g 绿色",
+		"num":16,
+		"now_price":"45.0",
+		"old_price":"50.00",
+		"score":"45",
+		"looked":"1015"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p20.jpg",
@@ -177,7 +467,23 @@
 		"num":7,
 		"now_price":"58.0",
 		"old_price":"80.00",
-		"discount":"7.3折"
+		"discount":"7.3折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p20_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p20_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p20_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p20_4.jpg"
+			},
+		"id":"22872",
+		"p_titile":"SKINFOOD思亲肤",
+		"p_info":"思亲肤小麦清透散粉21号（自然肤色）23g",
+		"num":7,
+		"now_price":"58.0",
+		"old_price":"80.00",
+		"score":"58",
+		"looked":"956"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p21.jpg",
@@ -186,7 +492,22 @@
 		"num":123,
 		"now_price":"39.9",
 		"old_price":"72.00",
-		"discount":"5.5折"
+		"discount":"5.5折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p21_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p21_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p21_3.jpg"
+			},
+		"id":"23045",
+		"p_titile":"其他品牌",
+		"p_info":"泰国Beauty Buffet Q10牛奶洗面奶100ml",
+		"num":123,
+		"now_price":"39.9",
+		"old_price":"72.00",
+		"score":"39",
+		"looked":"416"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p22.jpg",
@@ -195,7 +516,24 @@
 		"num":122,
 		"now_price":"83.0",
 		"old_price":"218.00",
-		"discount":"3.8折"
+		"discount":"3.8折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p22_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p22_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p22_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p22_4.jpg",
+			"imgSrc5":"../img/detail_shoping_img/p22_5.jpg"
+			},
+		"id":"22911",
+		"p_titile":"SNP斯内普",
+		"p_info":"SNP斯内普海洋燕窝补水安瓶精华面膜25ml*10",
+		"num":122,
+		"now_price":"83.0",
+		"old_price":"218.00",
+		"score":"83",
+		"looked":"990"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p23.jpg",
@@ -204,7 +542,23 @@
 		"num":35,
 		"now_price":"26.0",
 		"old_price":"35.00",
-		"discount":"7.4折"
+		"discount":"7.4折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p23_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p23_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p23_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p23_4.jpg"
+			},
+		"id":"8906",
+		"p_titile":"百雀羚",
+		"p_info":"百雀羚草本8杯水保湿水嫩面膜22g*5片",
+		"num":35,
+		"now_price":"26.0",
+		"old_price":"35.00",
+		"score":"26",
+		"looked":"29853"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p24.jpg",
@@ -213,7 +567,22 @@
 		"num":26,
 		"now_price":"230.0",
 		"old_price":"300.00",
-		"discount":"7.7折"
+		"discount":"7.7折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p24_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p24_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p24_3.jpg"
+			},
+		"id":"22724",
+		"p_titile":"SKIN79",
+		"p_info":"SKIN79无花果水乳组合（护肤水160ml+护肤乳120ml）",
+		"num":26,
+		"now_price":"230.0",
+		"old_price":"300.00",
+		"score":"230",
+		"looked":"1021"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p25.jpg",
@@ -222,7 +591,23 @@
 		"num":67,
 		"now_price":"75.0",
 		"old_price":"78.00",
-		"discount":"9.6折"
+		"discount":"9.6折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p25_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p25_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p25_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p25_4.jpg"
+			},
+		"id":"2244",
+		"p_titile":"Za姬芮",
+		"p_info":"Za姬芮新能真皙美白隔离霜SPF26PA++ 35g",
+		"num":67,
+		"now_price":"75.0",
+		"old_price":"78.00",
+		"score":"75",
+		"looked":"40537"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p26.jpg",
@@ -231,7 +616,21 @@
 		"num":83,
 		"now_price":"26.0",
 		"old_price":"68.00",
-		"discount":"3.8折"
+		"discount":"3.8折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p26_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p26_2.jpg"
+			},
+		"id":"22754",
+		"p_titile":"The saem得鲜",
+		"p_info":"thesaem得鲜完美遮瑕液 1.5号 自然色 6.5g",
+		"num":83,
+		"now_price":"26.0",
+		"old_price":"68.00",
+		"score":"26",
+		"looked":"1859"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p27.jpg",
@@ -240,7 +639,21 @@
 		"num":44,
 		"now_price":"59.0",
 		"old_price":"128.00",
-		"discount":"4.6折"
+		"discount":"4.6折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p27_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p27_2.jpg"
+			},
+		"id":"22741",
+		"p_titile":"The saem得鲜",
+		"p_info":"thesaem得鲜爱可按钮唇膏 02完美珊瑚红色 2g",
+		"num":44,
+		"now_price":"59.0",
+		"old_price":"128.00",
+		"score":"59",
+		"looked":"1822"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p28.jpg",
@@ -249,7 +662,21 @@
 		"num":53,
 		"now_price":"15.0",
 		"old_price":"19.90",
-		"discount":"7.5折"
+		"discount":"7.5折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p28_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p28_2.jpg"
+			},
+		"id":"22769",
+		"p_titile":"MissSaori沙织小姐",
+		"p_info":"MissSaori沙织小姐轻柔化妆棉1000片",
+		"num":53,
+		"now_price":"15.0",
+		"old_price":"19.90",
+		"score":"15",
+		"looked":"1161"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p29.jpg",
@@ -258,7 +685,22 @@
 		"num":22,
 		"now_price":"72.0",
 		"old_price":"110.00",
-		"discount":"6.5折"
+		"discount":"6.5折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p29_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p29_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p29_3.jpg"
+			},
+		"id":"22869",
+		"p_titile":"SKINFOOD思亲肤",
+		"p_info":"思亲肤莴苣黄瓜沁颜化妆水180ml",
+		"num":22,
+		"now_price":"72.0",
+		"old_price":"110.00",
+		"score":"72",
+		"looked":"1174"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p30.jpg",
@@ -267,7 +709,22 @@
 		"num":17,
 		"now_price":"19.9",
 		"old_price":"45.00",
-		"discount":"4.4折"
+		"discount":"4.4折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p30_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p30_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p30_3.jpg"
+			},
+		"id":"20048",
+		"p_titile":"澳格菲",
+		"p_info":"澳格菲薰衣草精油舒缓嫩白身体乳400ml",
+		"num":17,
+		"now_price":"19.9",
+		"old_price":"45.00",
+		"score":"19",
+		"looked":"21939"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p31.jpg",
@@ -276,7 +733,24 @@
 		"num":40,
 		"now_price":"45.0",
 		"old_price":"158.00",
-		"discount":"2.8折"
+		"discount":"2.8折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p31_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p31_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p31_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p31_4.jpg",
+			"imgSrc5":"../img/detail_shoping_img/p31_5.jpg"
+			},
+		"id":"7213",
+		"p_titile":"英国AA网",
+		"p_info":"英国AA网海藻芦荟眼胶60ml（祛黑眼圈，抚平细纹，超强补水）",
+		"num":40,
+		"now_price":"45.0",
+		"old_price":"158.00",
+		"score":"45",
+		"looked":"139312"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p32.jpg",
@@ -285,7 +759,20 @@
 		"num":13,
 		"now_price":"42.0",
 		"old_price":"128.00",
-		"discount":"3.3折"
+		"discount":"3.3折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p32_1.jpg"
+			},
+		"id":"22933",
+		"p_titile":"其他品牌",
+		"p_info":"松本清海藻泥矿物面膜350g",
+		"num":13,
+		"now_price":"42.0",
+		"old_price":"128.00",
+		"score":"42",
+		"looked":"655"
+		}
 	},
 	{
 		"imgSrc":"../img/homepage_img/p33.jpg",
@@ -294,6 +781,23 @@
 		"num":31,
 		"now_price":"45.0",
 		"old_price":"158.00",
-		"discount":"2.8折"
+		"discount":"2.8折",
+		"obj":{
+		"imgsrc":{
+			"imgSrc1":"../img/detail_shoping_img/p33_1.jpg",
+			"imgSrc2":"../img/detail_shoping_img/p33_2.jpg",
+			"imgSrc3":"../img/detail_shoping_img/p33_3.jpg",
+			"imgSrc4":"../img/detail_shoping_img/p33_4.jpg",
+			"imgSrc5":"../img/detail_shoping_img/p33_5.jpg"
+			},
+		"id":"9543",
+		"p_titile":"韩妙",
+		"p_info":"韩妙我的留恋日记红酒补水养颜面膜10片装",
+		"num":31,
+		"now_price":"45.0",
+		"old_price":"158.00",
+		"score":"45",
+		"looked":"34399"
+		}
 	}
 ]

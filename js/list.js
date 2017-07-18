@@ -3,15 +3,13 @@ require(["config"], function(){
 		$(function(){
 			var num = 0;
 			$("#main .sortList").on("click",".btn_close",function(){
-				if(num % 2 == 0){
-				$("#main .sortList .submenu").hide();
-				$(this).parents(".sortList").find(".submenu").show();
-				$("#main .sortList .btn_close").css("backgroundImage","url(../img/list_img/list_close.jpg)");
-				$(this).css("backgroundImage","url(../img/list_img/list_open.jpg)");
-				}else{
-					$("#main .sortList .submenu").hide();
-					$("#main .sortList .btn_close").css("backgroundImage","url(../img/list_img/list_close.jpg)");
-				}
+				$(this).parents(".sortList").find(".submenu").stop().show().end().siblings(".sortList").find(".submenu").hide();
+				$(this).parents(".sortList").find(".btn_close")
+				.css("backgroundImage","url(../img/list_img/list_open.jpg)").end()
+				.siblings(".sortList").find(".btn_close").css("backgroundImage","url(../img/list_img/list_close.jpg)");
+				if(num%2 !==0)
+				$(this).parents(".sortList").find(".submenu").hide().end()
+						.find(".btn_close").css("backgroundImage","url(../img/list_img/list_close.jpg)");
 				num++;
 			});
 			$("#main .sortList .submenu").on("click",".myCatLink",function(){

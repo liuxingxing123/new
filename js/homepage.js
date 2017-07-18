@@ -80,16 +80,6 @@ require(["config"], function(){
 			(function(){
 				$(window).on("scroll",function(){
 					var _scrollTop = $(window).scrollTop();
-					var x = (Math.floor(_scrollTop/100)-6)/2;
-					if(x>=0 && x<=5){
-						
-						$("#left_slider li").eq(x).children().show();
-						$("#left_slider li").eq(x-1).children().hide();
-					}else if(x>5){
-						$("#left_slider li").eq().children().hide();
-					}else if(x<0){
-						$("#left_slider li").eq().children().hide();
-					}
 					if(_scrollTop > 600)
 						$("#left_slider").stop().fadeIn(400);
 					else
@@ -119,13 +109,32 @@ require(["config"], function(){
 		var html = template("temp2",data);
 		$("#main .temp_main").append(html);
 	});	
-//	$("#main .temp_main .H .hot_img").css("background")
-	$("#main .temp_main").on("click",".H",function(){
+	
+	var arr=[];
+	
+	$.get("http://localhost/new/json/data.json").then(function(resData){
+		
+		resData.forEach(function(data){
+			arr.push(data.obj);
+		});
+		$("#main .temp_main").on("click",".H",function(e){
+			e.preventDefault ? e.preventDefault() : (e.returnValue = false);
+			var idx = $(this).index();
+			var m = arr[idx];
+		$.cookie("product_info",JSON.stringify(m),{expires:7,paths:"/"});
 		location.href="detail_shoping.html";
+		});
+		
 	});
 	$("#main .temp1").on("click",".super_temp",function(){
 		location.href="detail_shoping.html";
 	});
+	var products = $.cookie('products') || [];
+	var sum_last = 0;
+	products.forEach(function(product){
+		sum_last += Number(product.amount);
+	});
+	$(".shop").text(sum_last);
 });
 });
 });

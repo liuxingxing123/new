@@ -1,0 +1,167 @@
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+input,
+form,
+span,
+a,
+div,
+html,
+body,
+img,
+hr,
+dt,
+p,
+button,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 14px;
+    color: #66667b;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+input,
+button,
+form {
+    outline: none;
+    border: none;
+}
+
+ul,
+ol,
+dl li {
+    list-style: none;
+}
+
+.clearfix:after {
+    height: 0;
+    visibility: hidden;
+    content: "";
+    display: block;
+    clear: both;
+}
+.firm_over{
+    width: 100%;
+    height: 100%;
+    background:#eee;
+    padding-top:20px ;
+}
+.foot{
+    width:100%;
+    background:#fff;
+     text-align: center; 
+     border-top: 1px solid rgb(225, 225, 225); 
+     padding-top: 10px; 
+     padding-bottom: 10px;
+     font-size: 13px;
+}
+#firm_page{
+    width:1100px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #dddddd;
+    .address{
+        width: 100%;
+        height: 64px;
+        padding-left: 22px;
+        box-sizing: border-box;
+        position: relative;
+        line-height: 64px;
+        font-size: 18px;
+        border-bottom: 1px solid #DDDDDD;
+        select{width: 100px;line-height: 30px;}
+        input{width:120px;height: 30px;line-height: 30px;
+        position: absolute;right: 30px;border-radius: 6px;color: red;
+        top: 16px;cursor: pointer;}
+    };
+    .detail_adress{
+           width: 100%;
+        height: 64px;
+        padding-left: 22px;
+        box-sizing: border-box; 
+        line-height: 64px;
+        font-size: 18px;
+        border-bottom: 1px solid #DDDDDD;
+        input     {
+            width: 100%;
+            height: 100%;
+            display: block;
+            font-size: 15px;
+        }
+    };
+        h3{width: 100%;
+            height: 64px;
+        padding-left: 22px;
+        box-sizing: border-box; 
+        line-height: 64px;
+        font-size: 18px;
+        font-weight: 400;
+        }
+    .shopcar_firm{
+        width: 1060px;
+        margin: 0 auto;
+        background: #fafafa;
+        
+        height: 46px;
+        text-align: center;
+       
+        img{float: left;display: block;}
+        .xz_name{color: #f00;font-size: 14px;width: 40%;
+             a{font-size: 14px;color: #ff0000;
+                width: 350px;text-align: left;
+                float: right;
+              line-height:20px ;display: inline-block;
+              &:hover{
+                  color: #666;
+              }
+              }
+        }
+    };
+    .success_money{
+        width: 200px;
+        font-size: 15px;
+        color: #666;
+        line-height: 46px;
+        height: 46px;
+        float: right;
+        text-align: center;
+        margin-right: 20px;
+        span{width: 60px;height: 46px;line-height: 46px;
+        display: inline-block;color: #ff4293;text-align: center;}
+    };
+    .submit{
+        button{width: 100px;height: 40px;
+            border-radius: 4px;
+            background: #ccc;
+            text-align: center;
+            line-height: 40px;
+            font-size: 16px;
+            color: #000000;
+            float: right;
+            cursor: pointer;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 76px;
+            &:hover{
+                background:#e73a77;
+                color: white;
+            }
+        }
+    }
+}

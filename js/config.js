@@ -5,6 +5,12 @@ require.config({
 		"template":"http://localhost/new/js/template-native",
 		"bootstrap":"http://localhost/new/js/bootstrap.min",
 		"include":"http://localhost/new/js/include",
-		"magnifier":"http://localhost/new/js/magnifier"
+		"magnifier":"http://localhost/new/js/magnifier",
+		"fly":"http://localhost/new/js/jquery.fly.min"
+	},
+	shim:{
+		"fly" : {
+            deps : ["jquery"]
+        }
 	}
 });

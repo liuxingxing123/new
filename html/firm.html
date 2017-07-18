@@ -9,6 +9,45 @@
 		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
 	</head>
 	<body>
+		<div class="header"></div>
+		<div class="firm_over">
+		<div id="firm_page" class="clearfix">
+		<div class="address">
+			收货人地址：<select name="" id="province"></select>
+						<select name="" id="city"></select>
+						<select name="" id="district"></select>
+						<input type="submit" id="submit_btn" value="保存收货人地址" />
+		</div>
+		<div class="detail_adress"><input type="text" placeholder="请填写收货人详细地址"/ ></div>
+		<h3>商品清单</h3>
+		<table class="shopcar_firm">
+			<tr>
+			<td colspan="2">商品名称</td>
+			<td>商品编号</td>
+			<td>校妆价</td>
+			<td>商品数量</td>
+			</tr>
+		</table>
+		<div style="width: 100%;height: 46px;margin-top: 30px;">
+		<div class="success_money">应付总额：<span>￥34.00</span>元</div>	</div>
+		<div class="submit">
+			<button>提交订单</button>
+		</div>
+		</div>
+		</div>
+		<div class="foot"> Copyright 2008-2016 上海校妆科技有限公司 Xzhuang.com 版权所有 沪ICP备15046755号 </div>
+		
+		<script type="text/html" id="test">
+			<% for(var i=0;i<list.length;i++){ var product = list[i]; %>
+				<tr>
+					<td class="xz_name" colspan="2"><img style="width: 50px;height: 50px;" src="<%=product.img%>" >
+						<a href="detail_shoping.html"><%=product.name%></a></td>
+					<td><%=product.id%></td>
+					<td class="xz_all_pay"><%=product.price%></td>
+					<td class="xz_all_amount"><%=product.amount%></td>
+				</tr>
+			<%}%>
+		</script>
 	</body>
 	<script type="text/javascript" src="../js/require.js" data-main="../js/firm"></script>
 </html>

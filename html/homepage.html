@@ -130,11 +130,11 @@
 			<% for(var i=0;i<list.length;i++){ var prod = list[i]; %>
 				<div class="H">
 					 <div class="hot_img">
-					 <a href="#" target="_blank">
+					 <a href="detail_shoping.html" target="_blank">
 					 <img src="<%=prod.imgSrc%>"  width="336" height="216"></a>
                     <span>真心<br>便宜</span>
-                    <h2><a href="list.html" target="_blank"><%=prod.p_titile%></a></h2>
-               	 		<p><%=prod.p_info%></p>
+                    <h2><a href="javascript:void(0)" target="_blank"><%=prod.p_titile%></a></h2>
+               	 		<p class="prod_info"><%=prod.p_info%></p>
                	 	 </div>
               	  <div class="sale_price">
                     <span class="sale_num"><strong><%=prod.num%></strong>人已购买</span>
@@ -164,13 +164,5 @@
 		</ul>
 		<div class="footer"></div>
 	</body>
-	<!-- <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script> -->
 	<script type="text/javascript" src="../js/require.js" data-main="../js/homepage"></script>
-	<!-- <script type="text/javascript">
-	$(function(){
-		$("#nav .list li .silder").show();
-		$("#nav .list li :first").css("background","#e73a77");
-	});
-		
-	</script> -->
 </html>

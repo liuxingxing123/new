@@ -221,7 +221,8 @@ dl li {
         width: 242px;
         line-height: 16px;
         height: 32px;
-        font-size: 14px; }
+        font-size: 14px;
+        text-align: left; }
         #main .super_left .super_temp .p a {
           color: #666;
           height: 32px; }
@@ -255,7 +256,7 @@ dl li {
           line-height: 36px;
           color: white; }
   #main .selected {
-    width: 257px;
+    width: 241px;
     box-sizing: border-box;
     background: white;
     float: right;
@@ -269,7 +270,7 @@ dl li {
         padding-left: 5px;
         color: #7d7d7d; }
     #main .selected .se_img {
-      width: 257px;
+      width: 241px;
       height: 360px;
       overflow: hidden; }
       #main .selected .se_img a {
@@ -350,15 +351,17 @@ dl li {
         padding-left: 5px;
         color: #7d7d7d;
         font-size: 16px; }
+    #main .brand .brand_lis {
+      overflow: hidden; }
     #main .brand a {
       float: left;
       display: inline;
-      width: 122px;
-      height: 70px;
+      width: 135px;
+      height: 69px;
       position: relative;
       z-index: 0; }
       #main .brand a img {
-        width: 120px;
+        width: 135px;
         padding: 0 1px;
         background: #fff;
         height: 70px;
@@ -368,7 +371,7 @@ dl li {
         left: 0;
         top: 0;
         border: solid 1px #ececec;
-        width: 121px;
+        width: 135px;
         height: 69px;
         overflow: hidden;
         text-align: center;
@@ -377,7 +380,7 @@ dl li {
         z-index: 1; }
         #main .brand a:hover span {
           border: solid 2px #ff80b3;
-          width: 119px;
+          width: 133px;
           height: 67px; }
   #main .hot {
     width: 1103px;
@@ -525,10 +528,11 @@ dl li {
           color: #333; }
           #main .hot .H h2 a:hover {
             color: #e73a77; }
-      #main .hot .H p {
+      #main .hot .H .prod_info {
         font-size: 14px;
         color: #777;
         line-height: 24px;
+        text-align: left;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden; }
@@ -570,7 +574,7 @@ dl li {
   width: 63px;
   position: absolute;
   background: #f1f1f1;
-  right: 10px; }
+  right: 21px; }
   #right_slider li {
     width: 63px;
     height: 65px;
