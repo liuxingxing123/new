@@ -38,7 +38,7 @@ require(["config"], function(){
 						}
 						// 将登录成功的用户数据保存到 cookie 中
 				$.cookie("login_User", resData.user_info, {path:"/"});
-				location = "http://localhost/new/html/homepage.html";
+				location.href = "http://localhost/new/html/homepage.html";
 			}
 			else
 				$("#login .login_right .login_info").show();

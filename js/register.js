@@ -111,9 +111,9 @@ require(["config"], function(){
 				},function(data){
 					console.log(data);
 					if(data.status == 1){
-							location = "login.html";
+							location.href = "login.html";
 					}else{
-							location = "register.html";
+							location.href = "register.html";
 					}
 				},"json");
 		});
